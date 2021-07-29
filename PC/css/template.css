@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: ten-mincho, serif;
     font-weight: 400;
@@ -62,6 +67,20 @@ body {
     transform: translate(-50%,-50%);
     width: 100%;
 }
+
+.img_alt {
+    /*
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-14)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    */
+    color: #484848;
+    text-align: center;
+
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+
 
 .scrollanime {opacity: 0;} /*一瞬表示されるのを防ぐ*/
 .fadeInDown {
