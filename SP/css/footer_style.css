@@ -20,7 +20,7 @@
     transition: transform .8s ease;
     transition: transform .8s ease, -webkit-transform .8s ease;
 
-    z-index: 10;
+    z-index: 100;
 }
 
 .link_footer img {
