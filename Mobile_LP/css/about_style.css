@@ -1,0 +1,117 @@
+.about {
+    width: 375px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.about .about_title {
+    margin-bottom: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-747474);
+    text-align: center;
+    font: normal normal normal 20px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+}
+
+.about .about_memoma_title {
+    margin-left: 8px;
+    margin-bottom: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 24px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.about .about_memoma {
+    margin-bottom: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+#about_book_frame {
+    margin-left: 8px;
+    margin-bottom: 50px;
+}
+
+#about_book_frame img {
+    width: 300px;
+    height: 232px;
+}
+
+.about .about_activity_of_memoma_title {
+    margin-left: 8px;
+    margin-bottom: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 24px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.about .about_activity_of_memoma p {
+    margin-left: 8px;
+    margin-bottom: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+#about_volunteer_frame {
+    margin: 0 0 30px 42px;
+}
+
+#about_volunteer_frame img {
+    width: 333px;
+    height: 231px;
+}
+
+#about_online_activity_frame {
+    margin-bottom: 30px;
+}
+
+#about_online_activity_frame img {
+    width: 374px;
+    height: 158px;
+}
+
+#about_cource_explain_frame img{
+    width: 375px;
+    height: 282px;
+}

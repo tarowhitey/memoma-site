@@ -1,0 +1,14 @@
+header {
+    top: 0;
+    left: 0;    
+    width: 375px;
+    height: 54px;
+    position: fixed;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 0.67;
+}
+
+header img {
+    height: 54px;
+    z-index: 10;
+}
