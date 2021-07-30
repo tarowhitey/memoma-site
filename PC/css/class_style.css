@@ -1,0 +1,125 @@
+.class {
+    width: 100%;
+    display: inline-block;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+#basic {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+}
+
+.class .class_title {
+    margin-top: 50px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-40)/var(--unnamed-line-spacing-59) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-747474);
+    text-align: center;
+    font: normal normal normal 40px/59px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #747474;
+    opacity: 1;
+}
+
+.class .class_caption {
+    margin-top: 50px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal normal 22px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.class .class_explain {
+    width: 624px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal normal 16px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.class .class_features {
+    margin-top: 50px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-24)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: center;
+    font: normal normal normal 24px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.class .class_features_agenda_box {
+    margin: 30px auto 50px auto;
+    width: 573px;
+    height: 152px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #C7C7C7;
+    opacity: 1;
+}
+
+.class .class_features_agenda_box img {
+    float: left;
+    margin: 7px 0 7px 7px;
+    width: 182px;
+    height: 138px;
+}
+
+.class .class_features_agenda_box .class_features_agenda {
+    display: inline-block;
+    margin-left: 225px;
+    height: 100%;
+    vertical-align: middle;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-20)/40px var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 20px/40px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    display: table;
+}
+
+.class .class_features_agenda_box .class_features_agenda div{
+    display: table-cell;
+    vertical-align: middle;         
+}
+
+#special .class_features_agenda {
+    font: normal normal normal 16px/26px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.class_inner {
+    padding-top: 1px;
+    padding-bottom: 70px;
+    width: 1240px;
+}

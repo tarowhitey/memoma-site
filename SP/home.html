@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--stylesheets-->
+        <link rel="stylesheet" href="./css/template.css">
+        <link rel="stylesheet" href="./css/header_style.css">
+        <link rel="stylesheet" href="./css/top_style.css">
+        <link rel="stylesheet" href="./css/about_style.css">
+        <link rel="stylesheet" href="./css/class_style.css">
+        <link rel="stylesheet" href="./css/common_class_style.css">
+        <link rel="stylesheet" href="./css/basic_class_style.css">
+        <link rel="stylesheet" href="./css/special_class_style.css">
+        <link rel="stylesheet" href="./css/footer_style.css">
+
+        <!--scripts-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+            $(function ()
+            {
+                $('html,body').animate({ scrollTop: 0 }, '1');
+            });
+        </script>
+
+        <script>
+            (function (d)
+            {
+                var config = {
+                    kitId: 'zvw7nvy',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                    h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+            })(document);
+        </script>
+        <script text="text/javascript" src="./js/schroll.js"></script>
+        <title>メモ魔塾 〜The School of Memoma</title>
+    </head>
+
+    <body>
+        <header id="header">
+            <a href="javascript:void(0)" onclick="window.location.reload()">
+                <img src="./image/header_logo@2x.png" alt="ロゴ">
+            </a>
+        </header>
+        <div class="top">
+            <div class="img_back"></div>
+            <img src="./image/top_image_phone.png" alt="トップページのイメージ">
+
+            <div class="navigator_area">
+                <a href="javascript:void(0)" onclick="scrollToArea('about')">About</a>
+                <a href="javascript:void(0)" onclick="scrollToArea('common')">共通科</a>
+                <a href="javascript:void(0)" onclick="scrollToArea('basic')">基礎科</a>
+                <a href="javascript:void(0)" onclick="scrollToArea('special')">特進科</a>
+            </div>
+
+            <div class="top_salon_name">メモ魔塾</div>
+            <div class="top_caption">前田裕二オンラインサロン</div>
+        </div>
+
+        <div class="about" id="about">
+            <div class="about_title">
+                About
+            </div>
+
+            <div class="about_memoma_title">メモ魔塾とは</div>
+
+            <div class="about_memoma">
+                メモ魔塾は前田裕二が主宰するオンラインサロン。<br>
+                著書『メモの魔力』を中心に繋がるコミュニティとして、2019年12月31日に立ち上がりました。
+            </div>
+
+            <div class="pic_frame" id="about_book_frame">
+                <img src="./image/about_book@2x.png" alt="前田裕二著書『メモの魔力』">
+                <p>前田裕二著書『メモの魔力』</p>
+            </div>
+
+            <div class="about_activity_of_memoma_title">メモ魔塾の活動とは</div>
+            <div class="about_activity_of_memoma">
+                <p>
+                    『メモの魔力』購入者を対象とし、設立から1年足らずで12000人以上の会員が集まり、急成長を遂げています。<br>
+                    この「影響力の時代」においてメモ魔塾が目指していることがあります。それは、【社会における塾生1人ひとりの影響力を引き上げること】です。（例：SNSのフォロワー増、塾外で仕事や活動ボリューム増など）<br>
+                    このように、強い発信力を持つコミュニティを目指していきます。
+                </p>
+                <br>
+                <p>
+                    メモ魔塾はサロンオーナーである前田裕二に魅かれた人が多く、優しさに溢れながらも自己成長を貪欲に求めているのが特徴的です。<br>
+                    サロンメンバー(以下、塾生)は日々、積極的に活動をしています。<br>
+                    メモ魔塾内にて開催されるイベントに自由参加できることはもちろん、塾生自身が企画することもできます。<br>
+                    1万人越のコミュニティのなかでプロジェクトメンバーになり、イベントを全力で盛り上げていく、という非日常体験を得ることもできます。
+                </p>
+                <br>
+                <p>
+                    ◉社会人にとっては、ある種、学生時代の文化祭をやり直している感覚を思い出す場
+                </p>
+                <br>
+                <p>
+                    ◉学生にとっては、社会人とも接点を持つきっかけになり、様々なことを学べる場
+                </p>
+                <br>
+                <p>
+                    このように、必ずしも「メモが大好き」でなくとも、自己成長のために切磋琢磨できる仲間や、挑戦に向けた同志を見つけたい方には、うってつけのサロンとなっています。
+                </p>
+            </div>
+
+            <div class="pic_frame" id="about_volunteer_frame">
+                <img src="./image/about_volunteer@2x.png" alt="熊本ボランティア活動">
+                <p>熊本ボランティア活動</p>
+            </div>
+
+            <div class="pic_frame" id="about_online_activity_frame">
+                <img src="./image/about_online_activity@2x.png" alt="オンラインイベント">
+                <p>オンラインイベント</p>
+            </div>
+
+            <div class="pic_frame" id="about_cource_explain_frame">
+                <img src="./image/about_cource_explain_new.jpeg" alt="メモ魔塾の3つのコース">
+                <p class="img_alt" id="about_end">メモ魔塾の3つのコース</p>
+            </div>
+        </div>
+
+        <div class="class" id="common">
+            <p class="class_title">
+                メモ魔塾 共通科
+            </p>
+            <p class="class_caption">
+                メモの魔力を合言葉に、コミュニティを目的とした無料コース
+            </p>
+            <p class="class_explain">
+                著書『メモの魔力』がコミュニティへの参加チケットとなる、無料のコースです。非公開Facebookグループに紐付くコミュニティ活動を軸にしています。前田塾長からの気軽な投稿が見えるのも、魅力の1つです。「気軽メモ」と題して前田塾長が実際に取ったメモを塾生限定で共有することもあり、塾長の日常を垣間見て思考のプロセスに触れることができます。
+            <p>
+            <p class="class_features">
+                共通科の特徴
+            </p>
+            <div class="class_features_agenda_box">
+                <img src="./image/common_cource_logo@2x.png" alt="共通科バナー">
+                <div class="class_features_agenda">
+                    <div class="class_features_list">
+                        ①「気軽メモ」の受信<br>
+                        ② 部・ゼミ・サークル活動
+                    </div>
+                </div>
+            </div>
+            <p class="class_details_text_caption">①「気軽メモ」の受信</p>
+            <p class="class_details_text_explain">
+                前田塾長が自分向けに簡単に書き起こした、気軽なメモを投稿します。<br>
+                そこから類推をしたり、そのままのメモを見られるという価値があります。
+            </p>
+
+            <div class="pic_frame" id="common_course_memo_frame">
+                <img src="./image/common_course_memo@2x.png" alt="前田塾長のメモ">
+                <p>前田塾長のメモ</p>
+            </div>
+
+            <p class="class_details_text_caption">②部・ゼミ・サークル活動</p>
+            <p class="class_details_text_explain">
+                メモ魔塾内のグループには以下の3種類があります。<br><br>
+                １．部<br>
+                　　学習系以外のグループ（作詞作曲部など）<br><br>
+                ２．ゼミ<br>
+                　　学習系のグループ（読書ゼミなど）<br><br>
+                ３．サークル<br>
+                　　上記以外のグループ（子育てサークルなど）<br><br>
+                塾生自らやりたいことを提案し、30名の賛同者を募ることで立ち上げることができます。<br>
+                現在、20を超えるのグループがあり、ほぼ毎日、何らかのイベントが実施されています。また、複数の部・ゼミ・サークルで一緒にイベントを開催するということもあります。
+            </p>
+
+            <div class="pic_frame" id="common_course_camp_frame">
+                <img src="./image/common_course_camp@2x.png" alt="メモ魔合宿 ver.0">
+                <p class="img_alt">メモ魔合宿 ver.0</p>
+            </div>
+
+            <div class="pic_frame" id="common_course_memomafes_frame">
+                <img src="./image/common_course_memomafes@2x.png" alt="メモ魔フェス">
+                <p class="img_alt">メモ魔フェス</p>
+            </div>
+        </div>
+
+        <!--基礎科-->
+        <div class="class" id="basic">
+            <p class="class_title">
+                メモ魔塾 基礎科
+            </p>
+            <p class="class_caption">
+                インプットを目的とした<br>月額980円のコース
+            </p>
+            <p class="class_explain">
+                基礎科では、毎日、塾長による「前田メモ」が投稿され、その後、塾長の音声で発信される「ボイス日記」を聞き、理解を深めることができます。
+                また、月１の集中講義では、塾長からのメッセージを受け取り学ぶことができます。
+            </p>
+            <p class="class_features">
+                基礎科の特徴
+            </p>
+            <div class="class_features_agenda_box">
+                <img src="./image/basic_course_logo@2x.png" alt="基礎科バナー">
+                <div class="class_features_agenda">
+                    <div class="class_features_list">
+                        ① 前田メモ・ボイス日記<br>
+                        ② 前田塾長集中講義
+                    </div>
+                </div>
+            </div>
+            <p class="class_details_text_caption">①前田メモ・ボイス日記</p>
+            <p class="class_details_text_explain">
+                前田塾長が日頃考えていることや世界から抽出した学びを基礎科会員限定のFacebookグループに投稿いたします。<br>
+                日中に投稿される簡易な「前田メモ」から塾生は仮説を立てたり、内容へ想像を膨らませたりします。その日のメモ内容の”答え合わせ”は、夜間に投稿される「ボイス日記」によって聞くことができます。<br>
+                基礎科・特進科生しか聞けない「完全クローズド」なコンテンツです。<br>
+                ※書き起こしのテキストデータも予定しています。
+            </p>
+
+            <div class="pic_frame" id="basic_course_UGmemo_frame">
+                <img src="./image/basic_course_UGmemo@2x.png" alt="前田メモ・ボイス日記">
+                <p class="img_alt">前田メモ・ボイス日記</p>
+            </div>
+
+            <p class="class_details_text_caption">②前田塾長集中講義</p>
+            <p class="class_details_text_explain">
+                前田塾長による約1時間の「前田塾長集中講義」を毎月1回受講することができます。<br>
+                日頃メモした気づきをまとめて塾生に伝えます。<br>
+                ※さまざまなゲストをお招きして対談を行う可能性もあります。<br>
+                ※ゲストによる代理講義になる場合もあります。
+            </p>
+
+            <div class="pic_frame" id="basic_course_lecture_frame">
+                <img src="./image/basic_course_lecture@2x.png" alt="塾長集中講義">
+                <p class="img_alt">塾長集中講義</p>
+            </div>
+
+        </div>
+        <!--特進科-->
+        <div class="class" id="special">
+            <p class="class_title">
+                メモ魔塾 特進科
+            </p>
+            <p class="class_caption">
+                圧倒的なアウトプットをを目的とした月額5,980円のコース
+            </p>
+            <p class="class_explain">
+                特進科では、学校に見立てたクラス活動を行っています。 1クラス30名を上限とした10クラスで構成され、 毎月、塾長から出される「クラス課題」に取り組んでいます。
+                また、クラスの枠組みを超えた「専科活動」では、その領域に関しては、日本随一のレベルのプロ集団をめざして活動しています。
+            </p>
+            <p class="class_features">
+                特進科の特徴
+            </p>
+            <div class="class_features_agenda_box">
+                <img src="./image/special_course_logo@2x.png" alt="特進科バナー">
+                <div class="class_features_agenda">
+                    <div class="class_features_list">
+                        ①特進科自習室への参加<br>
+                        ②クラスへの加入<br>
+                        ③専科の活動<br>
+                        ④プロジェクトの活動<br>
+                        ⑤塾長相談室
+                    </div>
+                </div>
+            </div>
+
+            <p class="class_details_text_caption">①特進科自習室への参加</p>
+            <p class="class_details_text_explain">
+                特進科生全体が参加することができるカカオトークグループです。<br>
+                気軽なやりとりができ、時には前田塾長本人が参加してやりとりができる場合もあります。
+            </p>
+
+            <p class="class_details_text_caption">②クラスへの加入</p>
+            <p class="class_details_text_explain">
+                少人数に分かれて「クラス活動」を行います。<br>
+                ①とは別に、クラス毎のカカオトークグループがあり、前田塾長から出されるクラス対抗課題（通称Mリーグ）に取り組みます。
+            </p>
+
+            <div class="pic_frame" id="special_course_kakao_talk_frame">
+                <img src="./image/special_course_kakao_talk@2x.png" alt="カカオトークでのやりとり">
+                <p class="img_alt">カカオトークでのやりとり</p>
+            </div>
+
+            <p class="class_details_text_caption">③専科の活動</p>
+            <p class="class_details_text_explain">
+                専科は共通科の部活・ゼミ・サークルに近しい組織ですが、より専門的に圧倒的成長を目指す継続的なチームです。<br><br>
+                現在、4つの専科が活動しています。（言葉専科、動画専科、DC専科、MP専科）
+            </p>
+
+            <div class="pic_frame" id="special_course_specialized_activities_frame">
+                <img src="./image/special_course_specialized_activities@2x.png" alt="専科活動">
+                <p class="img_alt">専科活動</p>
+            </div>
+
+            <p class="class_details_text_caption">④プロジェクトの活動</p>
+            <p class="class_details_text_explain">
+                前田塾長から塾生に対して、仕事（や案件や企画等）が依頼されることがあります。<br>
+                「共犯者として一緒につくっていきたい」「プロセスを共有したい」というのが前田塾長の想いです。<br>
+                あるゴール達成に向けた旗のもと所属できる、一時的なチーム。<br>
+                あくまで一時的なものであり、ゴールを達成した場合は解散予定です。<br>
+                原則、定性（言葉、文字）のみならず、定量（数値）目標が紐付きます。<br>
+                塾長から依頼されることもあれば、塾生自らが立ち上げる場合もあります。<br><br>
+
+                (塾長からの依頼例)<br>
+                ・前田裕二が経営しているSHOWROOM株式会社の事業に関するもの<br>
+                ・その他、前田裕二が出演するメディア関連のもの<br><br>
+
+                (塾生自らが立ち上げた現在稼働中のプロジェクト) <br>
+                ・メモ魔塾案内プロジェクト<br>
+                ・メモ魔グッズ制作プロジェクト<br>
+                ・クラス管理プロジェクト<br>
+                ・Mリーグ課題検討委員会<br>
+                ・リアル談話室プロジェクト<br>
+                ・保健室
+            </p>
+
+            <div class="pic_frame" id="special_course_mleague_project_frame">
+                <img src="./image/special_course_mleague_project@2x.png" alt="Mリーグ・プロジェクト活動">
+                <p class="img_alt">Mリーグ・プロジェクト活動</p>
+            </div>
+
+
+            <p class="class_details_text_caption">⑤塾長・ボイス相談室への参加</p>
+            <p class="class_details_text_explain">
+                前田塾長へ質問すると、音声で答えてもらえるカカオトークグループです。<br>
+                質疑応答のやりとりすることができ、音声による返答がくる場合もあります。
+            </p>
+        </div>
+
+        <div class="copyright">© メモ魔塾 ALL RIGHTS RESERVED.</div>
+
+        <div class="link_footer" id="common_footer">
+            <a href="https://www.facebook.com/groups/455059425177773/" target="_blank" rel="noopener noreferrer">
+                <img src="./image/to_facebook_page.svg" alt="共通科 Facebook ページ">
+            </a>
+        </div>
+
+        <div class="link_footer" id="to_campfire_footer">
+            <a href="https://community.camp-fire.jp/projects/view/363041?list=search_result_projects_popular"
+                target="_blank" rel="noopener noreferrer">
+                <img src="./image/CAMPFIER_page.svg" alt="CAMPFIREページへ">
+            </a>
+        </div>
+
+        <script text="text/javascript" src="./js/footer_controll.js"></script>
+
+    </body>
+
+</html>

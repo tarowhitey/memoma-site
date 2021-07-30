@@ -1,0 +1,93 @@
+.class .special_details_text {
+    float: right;
+    width: 620px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.class .special_details_text_caption {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 22px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.class .special_details_text_explain {
+    margin-top: 30px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-000000);
+    text-align: left;
+    font: normal normal normal 16px/30px Ten Mincho;
+    font-family: ten-mincho, serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+#special {
+    margin-bottom: 70px;
+}
+
+#special_details_text_caption2 {
+    margin-top: 50px;
+}
+
+#special_details_text_caption3 {
+    margin-top: 50px;
+}
+
+#special_details_text_caption4 {
+    margin-top: 50px;
+}
+
+#special_details_text_caption5 {
+    margin-top: 50px;
+}
+
+#special_course_kakao_talk_frame {
+    margin-left: 150px;
+}
+
+#special_course_kakao_talk_frame img {
+    width: 338px;
+    height: 350px;
+}
+
+#special_course_specialized_activities_frame {
+    margin-top: 137px;
+    margin-left: 115px;
+}
+
+#special_course_specialized_activities_frame img {
+    width: 452px;
+    height: 254px;
+}
+
+#special_course_mleague_project_frame {
+    margin-top: 137px;
+    margin-left: 60px;
+}
+
+#special_course_mleague_project_frame img {
+    width: 507px;
+    height: 337px;
+}

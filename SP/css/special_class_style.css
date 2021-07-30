@@ -1,0 +1,30 @@
+#special_course_kakao_talk_frame {
+    margin-left: 18px;
+    margin-right: 19px;
+    margin-bottom: 50px;
+}
+
+#special_course_kakao_talk_frame img{
+    width: 338px;
+    height: 350px;
+}
+
+#special_course_specialized_activities_frame {
+    margin-bottom: 50px;
+}
+
+#special_course_specialized_activities_frame img {
+    width: 375px;
+    height: 211px;
+}
+
+#special_course_mleague_project_frame {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 50px;
+}
+
+#special_course_mleague_project_frame img {
+    width: 359px;
+    height: 390px;
+}
