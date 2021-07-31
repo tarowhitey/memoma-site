@@ -37,6 +37,8 @@
             })(document);
         </script>
         <script text="text/javascript" src="./js/schroll.js"></script>
+        <script text="text/javascript" src="./js/hamberger.js"></script>
+        <script text="text/javascript" src="./js/hamburger_scroll.js"></script>
         <title>メモ魔塾 〜The School of Memoma</title>
     </head>
 
@@ -45,6 +47,69 @@
             <a href="javascript:void(0)" onclick="window.location.reload()">
                 <img src="./image/header_logo@2x.png" alt="ロゴ">
             </a>
+
+            <div id="nav-toggle">
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div id="gloval-nav">
+                <nav>
+                    <ul>
+                        <li>
+                            <div class="hamberger_menu_position">
+                                <div class="hambeger_menu_navigator">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="201"
+                                        viewBox="0 0 42 201">
+                                        <defs>
+                                            <style>
+                                                .a {
+                                                    font-size: 14px;
+                                                    font-family: TenMincho-Regular, Ten Mincho;
+                                                    font-family: ten-mincho, serif;
+                                                    font-weight: 400;
+                                                    font-style: normal;
+                                                    color: #000000;
+                                                }
+
+                                            </style>
+                                        </defs>
+                                        <text class="a" transform="translate(21 16)">
+                                            <tspan x="-19.194" y="0">
+                                                <a id="nav-about" href="javascript:void(0)"
+                                                    onclick="scrollToArea('about')">About</a>
+                                            </tspan>
+                                            <tspan x="-21" y="60">
+                                                <a id="nav-common" href="javascript:void(0)"
+                                                    onclick="scrollToArea('common')">共通科</a>
+                                            </tspan>
+                                            <tspan x="-21" y="120">
+                                                <a id="nav-basic" href="javascript:void(0)"
+                                                    onclick="scrollToArea('basic')">基礎科</a>
+                                            </tspan>
+                                            <tspan x="-21" y="180">
+                                                <a id="nav-special" href="javascript:void(0)"
+                                                    onclick="scrollToArea('special')">特進科</a>
+                                            </tspan>
+                                        </text>
+                                    </svg>
+                                </div>
+
+                                <div class="hamburger_menu_salon_name">
+                                    メモ魔塾
+                                </div>
+
+                                <div class="top_caption">
+                                    前田裕二オンラインサロン
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <div class="top">
             <div class="img_back"></div>
@@ -56,56 +121,59 @@
                 <a href="javascript:void(0)" onclick="scrollToArea('basic')">基礎科</a>
                 <a href="javascript:void(0)" onclick="scrollToArea('special')">特進科</a>
             </div>
-
-            <div class="top_salon_name">メモ魔塾</div>
-            <div class="top_caption">前田裕二オンラインサロン</div>
+            <div class="top_salon_name_box">
+                <div class="top_salon_name">メモ魔塾</div>
+                <div class="top_caption">前田裕二オンラインサロン</div>
+            </div>
         </div>
 
         <div class="about" id="about">
             <div class="about_title">
                 About
             </div>
+            <div class="text_area_margin">
+                <div class="about_memoma_title">メモ魔塾とは</div>
 
-            <div class="about_memoma_title">メモ魔塾とは</div>
-
-            <div class="about_memoma">
-                メモ魔塾は前田裕二が主宰するオンラインサロン。<br>
-                著書『メモの魔力』を中心に繋がるコミュニティとして、2019年12月31日に立ち上がりました。
+                <div class="about_memoma">
+                    メモ魔塾は前田裕二が主宰するオンラインサロン。<br>
+                    著書『メモの魔力』を中心に繋がるコミュニティとして、2019年12月31日に立ち上がりました。
+                </div>
             </div>
-
             <div class="pic_frame" id="about_book_frame">
                 <img src="./image/about_book@2x.png" alt="前田裕二著書『メモの魔力』">
                 <p>前田裕二著書『メモの魔力』</p>
             </div>
+            <div class="text_area_margin">
 
-            <div class="about_activity_of_memoma_title">メモ魔塾の活動とは</div>
-            <div class="about_activity_of_memoma">
-                <p>
-                    『メモの魔力』購入者を対象とし、設立から1年足らずで12000人以上の会員が集まり、急成長を遂げています。<br>
-                    この「影響力の時代」においてメモ魔塾が目指していることがあります。それは、【社会における塾生1人ひとりの影響力を引き上げること】です。（例：SNSのフォロワー増、塾外で仕事や活動ボリューム増など）<br>
-                    このように、強い発信力を持つコミュニティを目指していきます。
-                </p>
-                <br>
-                <p>
-                    メモ魔塾はサロンオーナーである前田裕二に魅かれた人が多く、優しさに溢れながらも自己成長を貪欲に求めているのが特徴的です。<br>
-                    サロンメンバー(以下、塾生)は日々、積極的に活動をしています。<br>
-                    メモ魔塾内にて開催されるイベントに自由参加できることはもちろん、塾生自身が企画することもできます。<br>
-                    1万人越のコミュニティのなかでプロジェクトメンバーになり、イベントを全力で盛り上げていく、という非日常体験を得ることもできます。
-                </p>
-                <br>
-                <p>
-                    ◉社会人にとっては、ある種、学生時代の文化祭をやり直している感覚を思い出す場
-                </p>
-                <br>
-                <p>
-                    ◉学生にとっては、社会人とも接点を持つきっかけになり、様々なことを学べる場
-                </p>
-                <br>
-                <p>
-                    このように、必ずしも「メモが大好き」でなくとも、自己成長のために切磋琢磨できる仲間や、挑戦に向けた同志を見つけたい方には、うってつけのサロンとなっています。
-                </p>
+
+                <div class="about_activity_of_memoma_title">メモ魔塾の活動とは</div>
+                <div class="about_activity_of_memoma">
+                    <p>
+                        『メモの魔力』購入者を対象とし、設立から1年足らずで12000人以上の会員が集まり、急成長を遂げています。<br>
+                        この「影響力の時代」においてメモ魔塾が目指していることがあります。それは、【社会における塾生1人ひとりの影響力を引き上げること】です。（例：SNSのフォロワー増、塾外で仕事や活動ボリューム増など）<br>
+                        このように、強い発信力を持つコミュニティを目指していきます。
+                    </p>
+                    <br>
+                    <p>
+                        メモ魔塾はサロンオーナーである前田裕二に魅かれた人が多く、優しさに溢れながらも自己成長を貪欲に求めているのが特徴的です。<br>
+                        サロンメンバー(以下、塾生)は日々、積極的に活動をしています。<br>
+                        メモ魔塾内にて開催されるイベントに自由参加できることはもちろん、塾生自身が企画することもできます。<br>
+                        1万人越のコミュニティのなかでプロジェクトメンバーになり、イベントを全力で盛り上げていく、という非日常体験を得ることもできます。
+                    </p>
+                    <br>
+                    <p>
+                        ◉社会人にとっては、ある種、学生時代の文化祭をやり直している感覚を思い出す場
+                    </p>
+                    <br>
+                    <p>
+                        ◉学生にとっては、社会人とも接点を持つきっかけになり、様々なことを学べる場
+                    </p>
+                    <br>
+                    <p>
+                        このように、必ずしも「メモが大好き」でなくとも、自己成長のために切磋琢磨できる仲間や、挑戦に向けた同志を見つけたい方には、うってつけのサロンとなっています。
+                    </p>
+                </div>
             </div>
-
             <div class="pic_frame" id="about_volunteer_frame">
                 <img src="./image/about_volunteer@2x.png" alt="熊本ボランティア活動">
                 <p>熊本ボランティア活動</p>
@@ -336,7 +404,7 @@
             </a>
         </div>
 
-        <script text="text/javascript" src="./js/footer_controll.js"></script>
+        <script text="text/javascript" src="./js/fixed_control.js"></script>
 
     </body>
 

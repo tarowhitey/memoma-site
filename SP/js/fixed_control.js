@@ -3,32 +3,30 @@
 
 var pos = window.scrollY
 
-let headerHeight = document.getElementById("header").clientHeight;
+const aboutHeight = document.getElementById("about").getBoundingClientRect().top + window.pageYOffset;
+const commonHeight = document.getElementById("common").getBoundingClientRect().top + window.pageYOffset - 1;
+const basicHeight = document.getElementById("basic").getBoundingClientRect().top + window.pageYOffset - 1;
 
-const commonHeight = document.getElementById("common").getBoundingClientRect().top + window.pageYOffset - 1 - headerHeight;
-const basicHeight = document.getElementById("basic").getBoundingClientRect().top + window.pageYOffset - 1 - headerHeight;
-
+const header = document.getElementById("header")
 const commonFooter = document.getElementById("common_footer");
 const toCampfireFooter = document.getElementById("to_campfire_footer");
 
-//ar commonPos = document.getElementById("common").getBoundingClientRect().top;
-//var basicPos = document.getElementById("basic").getBoundingClientRect().top;
+console.log('common Height:' + aboutHeight)
 
-/*
-const onScroll = () =>
-{
-    
-};
-*/
-
-console.log('common Height:' + commonHeight)
-
+header.classList.add('header_hidden')
 commonFooter.classList.add('footer_hidden');
 toCampfireFooter.classList.add('footer_hidden');
 
 const onScroll = () =>
 {
     //console.log('pos:' + pos);
+    if (pos < aboutHeight)
+    {
+        header.classList.add('header_hidden')
+    } else
+    {
+        header.classList.remove('header_hidden')
+    }
 
     if (pos < commonHeight)
     {

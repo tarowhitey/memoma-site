@@ -1,6 +1,8 @@
 .class {
     padding-top: 30px;
     padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
 }
 
 #basic {
@@ -25,10 +27,10 @@
 }
 
 .class .class_caption {
-    width: 359px;
+    width: auto;
     height: 66px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 8px;
+    margin-right: 8px;
     margin-bottom: 30px;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -44,9 +46,9 @@
 }
 
 .class .class_explain {
-    width: 359px;
-    margin-right: auto;
-    margin-left: auto;
+    width: auto;
+    margin-right: 8px;
+    margin-left: 8px;
     margin-bottom: 30px;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
     letter-spacing: var(--unnamed-character-spacing-0);
@@ -134,9 +136,9 @@
 
 .class .class_details_text_explain {
     margin-bottom: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 359px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: auto;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-30) var(--unnamed-font-family-ten-mincho);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(--unnamed-color-000000);
