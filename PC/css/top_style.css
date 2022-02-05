@@ -4,10 +4,20 @@
 }
 
 .top_image {
-    margin-left: 350px;
-    margin-bottom: 100px;
-    width: 890px;
-    height: 693px;
+    height: 666px;
+    width: 400px;
+    margin-top: 27px;
+    right: 87px;
+    position: absolute;
+    z-index: 10;
+}
+
+.top_image_background {
+    background-color: #F4F4F4;
+    width: 600px;
+    height: 530px;
+    top: 163px;
+    right: 0;
     position: absolute;
 }
 
